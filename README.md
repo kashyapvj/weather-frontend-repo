@@ -19,6 +19,9 @@
 
 ## How to run application
 
+- Install npm with version 6.14.18 and node version 14.21.3
 - `npm install` -> run to download all dependencies
+- create a .env in root directory(weather-frontend-repo) with variable `REACT_APP_API_URL='http://localhost'` and `REACT_APP_PORT='3001'
+` as backend is running on port 3001
 - `npm start` -> to run application
 - application will start at port 3000
